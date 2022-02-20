@@ -1,2 +1,5 @@
-# diskominfoprovjambi2022
-tugas 2 dinas komunikasi dan informatika provinsi jambi
+# SimpleApiPHP
+Contoh API PHP Sederhana
+
+- Import db_kampus.sql
+- Ubah koneksi.php sesuaikan dengan host,username,password, dan db anda
