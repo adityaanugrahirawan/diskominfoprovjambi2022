@@ -21,12 +21,11 @@ class Pegawai
 		header('Content-Type: application/json');
 		echo json_encode($response);
 	}
-
-	public function get_pgw($id=0)
+	public function gt_pgw($id = 0)
 	{
 		global $mysqli;
 		$query="SELECT * FROM tbl_pegawai";
-		if($id != 0)
+		if($id!=0)
 		{
 			$query.=" WHERE id=".$id." LIMIT 1";
 		}
